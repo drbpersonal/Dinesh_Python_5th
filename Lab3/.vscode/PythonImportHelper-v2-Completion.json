@@ -1,0 +1,11 @@
+[
+    {
+        "label": "students",
+        "kind": 5,
+        "importPath": "studentgrademanager",
+        "description": "studentgrademanager",
+        "peekOfCode": "students = {}\ntry:\n    file=open(\"students.txt\", \"r\")\n    for line in file:\n        name,g1,g2,g3=line.split(\",\")\n        students[name]=[int(g1), int(g2), int(g3)]\n        file.close()\nexcept FileNotFoundError:\n    pass\nwhile True:",
+        "detail": "studentgrademanager",
+        "documentation": {}
+    }
+]

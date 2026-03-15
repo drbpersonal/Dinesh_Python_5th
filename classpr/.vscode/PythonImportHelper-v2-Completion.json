@@ -1,0 +1,344 @@
+[
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "assignment",
+        "description": "assignment",
+        "peekOfCode": "num = 12",
+        "detail": "assignment",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "Assignment1",
+        "description": "Assignment1",
+        "peekOfCode": "num = 12\nprint(isinstance(num, int))\n'''\nOutput:\n    True\n'''\n# Q001-2: divide 100 by 12 and check whether the result is float or not\nresult = 100 / 12\nprint(isinstance(result, float))\n# True",
+        "detail": "Assignment1",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Assignment1",
+        "description": "Assignment1",
+        "peekOfCode": "result = 100 / 12\nprint(isinstance(result, float))\n# True\n# Q001-3: create lists x, y and z\nx = [1, 2, 3, 4, 5]\ny = [1, 2, 3, 4, 5]\nz = x\n# Q001-4: check whether x is identical to y\nprint(x is y)\n# Q001-5: check whether x is identical to z",
+        "detail": "Assignment1",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Assignment1",
+        "description": "Assignment1",
+        "peekOfCode": "x = [1, 2, 3, 4, 5]\ny = [1, 2, 3, 4, 5]\nz = x\n# Q001-4: check whether x is identical to y\nprint(x is y)\n# Q001-5: check whether x is identical to z\nprint(x is z)\n'''Output:\n   False\n   True",
+        "detail": "Assignment1",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "Assignment1",
+        "description": "Assignment1",
+        "peekOfCode": "y = [1, 2, 3, 4, 5]\nz = x\n# Q001-4: check whether x is identical to y\nprint(x is y)\n# Q001-5: check whether x is identical to z\nprint(x is z)\n'''Output:\n   False\n   True\n'''",
+        "detail": "Assignment1",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "Assignment1",
+        "description": "Assignment1",
+        "peekOfCode": "z = x\n# Q001-4: check whether x is identical to y\nprint(x is y)\n# Q001-5: check whether x is identical to z\nprint(x is z)\n'''Output:\n   False\n   True\n'''\n# Q001-6: check whether lion is in the zoo or not",
+        "detail": "Assignment1",
+        "documentation": {}
+    },
+    {
+        "label": "zoo",
+        "kind": 5,
+        "importPath": "Assignment1",
+        "description": "Assignment1",
+        "peekOfCode": "zoo = [\"elephant\", \"tiger\", \"zebra\", \"lion\", \"wolf\"]\nprint(\"lion\" in zoo)\n''' Output:\n    True\n'''\n# Q001-7: check whether horse is in the zoo or not\nprint(\"horse\" in zoo)\n''' Output:\n    False\n'''",
+        "detail": "Assignment1",
+        "documentation": {}
+    },
+    {
+        "label": "primes",
+        "kind": 5,
+        "importPath": "Assignment1",
+        "description": "Assignment1",
+        "peekOfCode": "primes = [2, 3, 5, 7, 11, 13, 17]\nprint(9 in primes)\n''' Output:\n    False\n'''\n# Question Q002: List Creation and Methods\n# Q002-1: create an empty list\nmy_list = []\n# Q002-2: add numbers 5 and 9 using append()\nmy_list.append(5)",
+        "detail": "Assignment1",
+        "documentation": {}
+    },
+    {
+        "label": "my_list",
+        "kind": 5,
+        "importPath": "Assignment1",
+        "description": "Assignment1",
+        "peekOfCode": "my_list = []\n# Q002-2: add numbers 5 and 9 using append()\nmy_list.append(5)\nmy_list.append(9)\n# Q002-3: take input from user and add to list\nnum = int(input(\"Enter a number: \"))\nmy_list.append(num)\n# Q002-4: create another list and extend my_list\nmore_items = [1, 2, 3]\nmy_list.extend(more_items)",
+        "detail": "Assignment1",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "Assignment1",
+        "description": "Assignment1",
+        "peekOfCode": "num = int(input(\"Enter a number: \"))\nmy_list.append(num)\n# Q002-4: create another list and extend my_list\nmore_items = [1, 2, 3]\nmy_list.extend(more_items)\n# Q002-5: find length of the list\nprint(len(my_list))\n# Q002-6: remove second item using pop()\nremoved_item = my_list.pop(1)\nprint(my_list)",
+        "detail": "Assignment1",
+        "documentation": {}
+    },
+    {
+        "label": "more_items",
+        "kind": 5,
+        "importPath": "Assignment1",
+        "description": "Assignment1",
+        "peekOfCode": "more_items = [1, 2, 3]\nmy_list.extend(more_items)\n# Q002-5: find length of the list\nprint(len(my_list))\n# Q002-6: remove second item using pop()\nremoved_item = my_list.pop(1)\nprint(my_list)\n# Q002-7: check whether popped item exists in list\nprint(removed_item in my_list)\n# Output:",
+        "detail": "Assignment1",
+        "documentation": {}
+    },
+    {
+        "label": "removed_item",
+        "kind": 5,
+        "importPath": "Assignment1",
+        "description": "Assignment1",
+        "peekOfCode": "removed_item = my_list.pop(1)\nprint(my_list)\n# Q002-7: check whether popped item exists in list\nprint(removed_item in my_list)\n# Output:\n'''\nEnter a number: 6\n6\n[5, 6, 1, 2, 3]\nFalse",
+        "detail": "Assignment1",
+        "documentation": {}
+    },
+    {
+        "label": "wild",
+        "kind": 5,
+        "importPath": "Assignment1",
+        "description": "Assignment1",
+        "peekOfCode": "wild = [\"tiger\", \"lion\", \"deer\", \"bear\", \"zebra\"]\n# Q003-2: sort the list\nwild.sort()\n# Q003-3: reverse the list\nwild.reverse()\n# Q003-4: add three more animals\nwild.extend([\"leopard\", \"elephant\", \"rhino\"])\n# Q003-5: find position of leopard and remove it\npos = wild.index(\"leopard\")\nwild.pop(pos)",
+        "detail": "Assignment1",
+        "documentation": {}
+    },
+    {
+        "label": "pos",
+        "kind": 5,
+        "importPath": "Assignment1",
+        "description": "Assignment1",
+        "peekOfCode": "pos = wild.index(\"leopard\")\nwild.pop(pos)\n# Q003-6: check whether leopard is removed\nprint(\"leopard\" in wild)\n# Q003-7: add leopard again at index 2\nwild.insert(2, \"leopard\")\n# Q003-8: remove rhino using remove()\nwild.remove(\"rhino\")\nprint(wild)\n'''",
+        "detail": "Assignment1",
+        "documentation": {}
+    },
+    {
+        "label": "multi",
+        "kind": 5,
+        "importPath": "Assignment1",
+        "description": "Assignment1",
+        "peekOfCode": "multi = [\n    [12, 52, 37],\n    [46, 51, 16],\n    [17, 82, 39]\n]\n# Q004-2: access number 51\nprint(multi[1][1])\n# Q004-3: access number 82 using negative index\nprint(multi[-1][-2])\n# Q004-4: find length of outer list",
+        "detail": "Assignment1",
+        "documentation": {}
+    },
+    {
+        "label": "t",
+        "kind": 5,
+        "importPath": "Assignment1",
+        "description": "Assignment1",
+        "peekOfCode": "t = (10, 20, 30, 40, 50)\n# Q005-2: find length of tuple\nprint(len(t))\n# Q005-3: access third element\nprint(t[2])\n# Q005-4: use enumerate()\nfor i, v in enumerate(t):\n    print(i, v)\n'''\nOutput:",
+        "detail": "Assignment1",
+        "documentation": {}
+    },
+    {
+        "label": "nested_tuple",
+        "kind": 5,
+        "importPath": "Assignment1",
+        "description": "Assignment1",
+        "peekOfCode": "nested_tuple = ((1, 2, 3), (4, 5, 6))\n# Q006-2: access element using positive index\nprint(nested_tuple[1][1])\n# Q006-3: access element using negative index\nprint(nested_tuple[-1][-2])\n'''\nOutput:\n5\n5\n'''",
+        "detail": "Assignment1",
+        "documentation": {}
+    },
+    {
+        "label": "t1",
+        "kind": 5,
+        "importPath": "Assignment1",
+        "description": "Assignment1",
+        "peekOfCode": "t1 = (1, 6, 9, 4, 3)\nt2 = (2, 7, 8, 3, 5)\n# Q007-2: create new tuple using unpacking\nt3 = (*t1, *t2)\nprint(t3)\n'''\nOutput:\n(1, 6, 9, 4, 3, 2, 7, 8, 3, 5)\n'''\n# Question Q008: Set Operations",
+        "detail": "Assignment1",
+        "documentation": {}
+    },
+    {
+        "label": "t2",
+        "kind": 5,
+        "importPath": "Assignment1",
+        "description": "Assignment1",
+        "peekOfCode": "t2 = (2, 7, 8, 3, 5)\n# Q007-2: create new tuple using unpacking\nt3 = (*t1, *t2)\nprint(t3)\n'''\nOutput:\n(1, 6, 9, 4, 3, 2, 7, 8, 3, 5)\n'''\n# Question Q008: Set Operations\n# Q008-1: create sets",
+        "detail": "Assignment1",
+        "documentation": {}
+    },
+    {
+        "label": "t3",
+        "kind": 5,
+        "importPath": "Assignment1",
+        "description": "Assignment1",
+        "peekOfCode": "t3 = (*t1, *t2)\nprint(t3)\n'''\nOutput:\n(1, 6, 9, 4, 3, 2, 7, 8, 3, 5)\n'''\n# Question Q008: Set Operations\n# Q008-1: create sets\nrich = {\"USA\", \"China\", \"Japan\", \"Germany\", \"France\", \"Australia\", \"Italy\"}\neurope = {\"Germany\", \"France\", \"England\", \"Switzerland\", \"Italy\", \"Portugal\", \"Sweden\"}",
+        "detail": "Assignment1",
+        "documentation": {}
+    },
+    {
+        "label": "rich",
+        "kind": 5,
+        "importPath": "Assignment1",
+        "description": "Assignment1",
+        "peekOfCode": "rich = {\"USA\", \"China\", \"Japan\", \"Germany\", \"France\", \"Australia\", \"Italy\"}\neurope = {\"Germany\", \"France\", \"England\", \"Switzerland\", \"Italy\", \"Portugal\", \"Sweden\"}\n# Q008-2: rich but not Europe\nprint(rich - europe)\n# Q008-3: Europe but not rich\nprint(europe - rich)\n# Q008-4: common countries\nprint(rich & europe)\n# Q008-5: either rich or Europe but not both\nprint(rich ^ europe)",
+        "detail": "Assignment1",
+        "documentation": {}
+    },
+    {
+        "label": "europe",
+        "kind": 5,
+        "importPath": "Assignment1",
+        "description": "Assignment1",
+        "peekOfCode": "europe = {\"Germany\", \"France\", \"England\", \"Switzerland\", \"Italy\", \"Portugal\", \"Sweden\"}\n# Q008-2: rich but not Europe\nprint(rich - europe)\n# Q008-3: Europe but not rich\nprint(europe - rich)\n# Q008-4: common countries\nprint(rich & europe)\n# Q008-5: either rich or Europe but not both\nprint(rich ^ europe)\n# Q008-6: all unique countries",
+        "detail": "Assignment1",
+        "documentation": {}
+    },
+    {
+        "label": "asian_rich",
+        "kind": 5,
+        "importPath": "Assignment1",
+        "description": "Assignment1",
+        "peekOfCode": "asian_rich = {\"China\", \"Japan\"}\nprint(asian_rich.issubset(rich))\nprint(rich.issuperset(asian_rich))\n'''\nOutput:\n{'Japan', 'USA', 'China', 'Australia'}\n{'Sweden', 'England', 'Portugal', 'Switzerland'}\n{'Italy', 'France', 'Germany'}\n{'Australia', 'Sweden', 'England', 'China', 'USA', 'Japan', 'Portugal', 'Switzerland'}\n{'France', 'Switzerland', 'Australia', 'Italy', 'Sweden', 'England', 'China', 'Japan', 'Germany', 'Portugal', 'USA'}",
+        "detail": "Assignment1",
+        "documentation": {}
+    },
+    {
+        "label": "person",
+        "kind": 5,
+        "importPath": "Assignment1",
+        "description": "Assignment1",
+        "peekOfCode": "person = {\"name\": \"Ram\", \"age\": 25, \"profession\": \"Teacher\", \"married\": False}\n# Q009-2: print name\nprint(person[\"name\"])\n# Q009-3: add age by 10\nprint(person[\"age\"] + 10)\n# Q009-4: access employed key using get()\nprint(person.get(\"employed\"))\n# Q009-5: get with default value\nprint(person.get(\"employed\", False))\n'''",
+        "detail": "Assignment1",
+        "documentation": {}
+    },
+    {
+        "label": "car",
+        "kind": 5,
+        "importPath": "Assignment1",
+        "description": "Assignment1",
+        "peekOfCode": "car = {\"brand\": \"Toyota\", \"model\": \"Corolla\", \"price\": 20000}\n# Q010-2: add engine key\ncar[\"engine\"] = \"Petrol\"\n# Q010-3: update multiple keys\ncar.update({\"color\": \"Red\", \"seats\": 5})\n# Q010-4: remove color key\ncar.pop(\"color\")\n# Q010-5: use popitem()\ncar.popitem()\n# Q010-6: iterate keys",
+        "detail": "Assignment1",
+        "documentation": {}
+    },
+    {
+        "label": "car[\"engine\"]",
+        "kind": 5,
+        "importPath": "Assignment1",
+        "description": "Assignment1",
+        "peekOfCode": "car[\"engine\"] = \"Petrol\"\n# Q010-3: update multiple keys\ncar.update({\"color\": \"Red\", \"seats\": 5})\n# Q010-4: remove color key\ncar.pop(\"color\")\n# Q010-5: use popitem()\ncar.popitem()\n# Q010-6: iterate keys\nfor k in car:\n    print(k)",
+        "detail": "Assignment1",
+        "documentation": {}
+    },
+    {
+        "label": "yoda",
+        "kind": 5,
+        "importPath": "Assignment1",
+        "description": "Assignment1",
+        "peekOfCode": "yoda = {\n    \"master\": {\n        \"master\": {\n            \"affiliations\": [\"house Serenno\", \"jedi\"]\n        }\n    }\n}\n# Q011-2: print first affiliation\nprint(yoda[\"master\"][\"master\"][\"affiliations\"][0])\n# Q011-3: add Sith affiliation",
+        "detail": "Assignment1",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Assignment1",
+        "description": "Assignment1",
+        "peekOfCode": "x = ['1', '2', '3', '4', '5']\ntotal = 0\nfor i in x:\n    total += int(i)\nprint(total)\n# Outout: 15\n# Q013-4: odd and prime operations\nodd = [1, 3, 5, 7, 9, 11, 13]\nprime = [2, 3, 5, 7, 11, 13]\nprint(list(set(odd) - set(prime)))",
+        "detail": "Assignment1",
+        "documentation": {}
+    },
+    {
+        "label": "total",
+        "kind": 5,
+        "importPath": "Assignment1",
+        "description": "Assignment1",
+        "peekOfCode": "total = 0\nfor i in x:\n    total += int(i)\nprint(total)\n# Outout: 15\n# Q013-4: odd and prime operations\nodd = [1, 3, 5, 7, 9, 11, 13]\nprime = [2, 3, 5, 7, 11, 13]\nprint(list(set(odd) - set(prime)))\n# Output:[1, 9]",
+        "detail": "Assignment1",
+        "documentation": {}
+    },
+    {
+        "label": "odd",
+        "kind": 5,
+        "importPath": "Assignment1",
+        "description": "Assignment1",
+        "peekOfCode": "odd = [1, 3, 5, 7, 9, 11, 13]\nprime = [2, 3, 5, 7, 11, 13]\nprint(list(set(odd) - set(prime)))\n# Output:[1, 9]\n# Question Q014: Palindrome Program\n# Q014-1: check whether input word is palindrome\nwhile True:\n    word = input(\"Enter word (blank to exit): \")\n    if not word:\n        break",
+        "detail": "Assignment1",
+        "documentation": {}
+    },
+    {
+        "label": "prime",
+        "kind": 5,
+        "importPath": "Assignment1",
+        "description": "Assignment1",
+        "peekOfCode": "prime = [2, 3, 5, 7, 11, 13]\nprint(list(set(odd) - set(prime)))\n# Output:[1, 9]\n# Question Q014: Palindrome Program\n# Q014-1: check whether input word is palindrome\nwhile True:\n    word = input(\"Enter word (blank to exit): \")\n    if not word:\n        break\n    if word == word[::-1]:",
+        "detail": "Assignment1",
+        "documentation": {}
+    },
+    {
+        "label": "attribut",
+        "kind": 6,
+        "importPath": "class",
+        "description": "class",
+        "peekOfCode": "class attribute\ninstamnce attribute\nmethods have multiple type\ni) Instance method\nii)class method\niii)static method\niV)initializer method\n'''\n# class person:\n#  species = 'Human'",
+        "detail": "class",
+        "documentation": {}
+    },
+    {
+        "label": "line",
+        "kind": 6,
+        "importPath": "class",
+        "description": "class",
+        "peekOfCode": "class line:\n    def __init__(self,length):\n        self.length = length\n    #add your method here\n    def __add__(self,other):\n        return line(self.length + other.length)\n    #end of your code\nl1 = line(5)\nl2 = line(10)\nl3 = l1 + l2",
+        "detail": "class",
+        "documentation": {}
+    },
+    {
+        "label": "l1",
+        "kind": 5,
+        "importPath": "class",
+        "description": "class",
+        "peekOfCode": "l1 = line(5)\nl2 = line(10)\nl3 = l1 + l2\nprint(type(l3))\nprint(l3.length)",
+        "detail": "class",
+        "documentation": {}
+    },
+    {
+        "label": "l2",
+        "kind": 5,
+        "importPath": "class",
+        "description": "class",
+        "peekOfCode": "l2 = line(10)\nl3 = l1 + l2\nprint(type(l3))\nprint(l3.length)",
+        "detail": "class",
+        "documentation": {}
+    },
+    {
+        "label": "l3",
+        "kind": 5,
+        "importPath": "class",
+        "description": "class",
+        "peekOfCode": "l3 = l1 + l2\nprint(type(l3))\nprint(l3.length)",
+        "detail": "class",
+        "documentation": {}
+    },
+    {
+        "label": "rows",
+        "kind": 5,
+        "importPath": "dictionary",
+        "description": "dictionary",
+        "peekOfCode": "rows = 5\nfor i in range(1, rows + 1):\n    for j in range(1, i + 1):\n        print(j, end=\" \")\n    print()",
+        "detail": "dictionary",
+        "documentation": {}
+    },
+    {
+        "label": "square",
+        "kind": 5,
+        "importPath": "Function",
+        "description": "Function",
+        "peekOfCode": "square = lambda x: x * x\nprint(square(6))",
+        "detail": "Function",
+        "documentation": {}
+    }
+]
