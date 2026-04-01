@@ -17,6 +17,15 @@
         "documentation": {}
     },
     {
+        "label": "sqlite3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlite3",
+        "description": "sqlite3",
+        "detail": "sqlite3",
+        "documentation": {}
+    },
+    {
         "label": "num",
         "kind": 5,
         "importPath": "classpr.assignment",
@@ -401,6 +410,60 @@
         "description": "numpy.numpyarray",
         "peekOfCode": "index = np.where(arr == 1.5)\nprint(index)\n#Descriptive statistics\nprint(np.mean(arr))\nprint(np.std(arr))\n# 4: NumPy Matrix Operations\n# Q4: NumPy Matrix Operations\n# 1. Create a 2x3 NumPy array with random integers between 1 and 50.\n# 2. Perform the following operations:\n# Calculate the sum of all elements.",
         "detail": "numpy.numpyarray",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "pythonDb",
+        "description": "pythonDb",
+        "peekOfCode": "conn = sqlite3.connect('mydatabase.db')\nprint(\"Opened database successfully\")\ncursor = conn.cursor()\nsql_create_table = \"\"\"\nCREATE TABLE IF NOT EXISTS students (\n    id      INTEGER PRIMARY KEY AUTOINCREMENT,\n    name    VARCHAR(50) NOT NULL,\n    grade   INTEGER,\n    section CHAR(1)\n)",
+        "detail": "pythonDb",
+        "documentation": {}
+    },
+    {
+        "label": "cursor",
+        "kind": 5,
+        "importPath": "pythonDb",
+        "description": "pythonDb",
+        "peekOfCode": "cursor = conn.cursor()\nsql_create_table = \"\"\"\nCREATE TABLE IF NOT EXISTS students (\n    id      INTEGER PRIMARY KEY AUTOINCREMENT,\n    name    VARCHAR(50) NOT NULL,\n    grade   INTEGER,\n    section CHAR(1)\n)\n\"\"\"\nconn.execute(sql_create_table)",
+        "detail": "pythonDb",
+        "documentation": {}
+    },
+    {
+        "label": "sql_create_table",
+        "kind": 5,
+        "importPath": "pythonDb",
+        "description": "pythonDb",
+        "peekOfCode": "sql_create_table = \"\"\"\nCREATE TABLE IF NOT EXISTS students (\n    id      INTEGER PRIMARY KEY AUTOINCREMENT,\n    name    VARCHAR(50) NOT NULL,\n    grade   INTEGER,\n    section CHAR(1)\n)\n\"\"\"\nconn.execute(sql_create_table)\nconn.commit()",
+        "detail": "pythonDb",
+        "documentation": {}
+    },
+    {
+        "label": "sql_insert",
+        "kind": 5,
+        "importPath": "pythonDb",
+        "description": "pythonDb",
+        "peekOfCode": "sql_insert = \"INSERT INTO students(name,grade,section) VALUES (?,?,?)\"\nrecord = (\"Dinesh\", 85, 'A')\ncursor.execute(sql_insert, record)\nconn.commit()\n# Multiple record at once\nsql_insert=\" INSERT INTO students(name,grade,section) VALUES (?,?,?)\"\nrecords = [\n    (\"Dinesh raj\", 90, 'A'),\n    (\"Kripa\", 85, 'B'),\n    (\"Aagyaven\", 95, 'A')",
+        "detail": "pythonDb",
+        "documentation": {}
+    },
+    {
+        "label": "record",
+        "kind": 5,
+        "importPath": "pythonDb",
+        "description": "pythonDb",
+        "peekOfCode": "record = (\"Dinesh\", 85, 'A')\ncursor.execute(sql_insert, record)\nconn.commit()\n# Multiple record at once\nsql_insert=\" INSERT INTO students(name,grade,section) VALUES (?,?,?)\"\nrecords = [\n    (\"Dinesh raj\", 90, 'A'),\n    (\"Kripa\", 85, 'B'),\n    (\"Aagyaven\", 95, 'A')\n]",
+        "detail": "pythonDb",
+        "documentation": {}
+    },
+    {
+        "label": "records",
+        "kind": 5,
+        "importPath": "pythonDb",
+        "description": "pythonDb",
+        "peekOfCode": "records = [\n    (\"Dinesh raj\", 90, 'A'),\n    (\"Kripa\", 85, 'B'),\n    (\"Aagyaven\", 95, 'A')\n]\ncursor.executemany(sql_insert, records)\nconn.commit()\nprint(\"Records inserted successfully\")",
+        "detail": "pythonDb",
         "documentation": {}
     }
 ]
